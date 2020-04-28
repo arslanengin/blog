@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "Upload";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    <form action="/PostImages/Upload" class="dropzone" enctype="multipart/form-data">
+        <input type="hidden" name="id" value="@Model" />    
+        <div class="fallback">
+            <input name="file" type="file" multiple />
+        </div>
+    </form>

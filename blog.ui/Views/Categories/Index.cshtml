@@ -1,0 +1,35 @@
+@model IEnumerable<blog.data.models.Category>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <button class="btn btn-outline-dark" asp-action="Create">Create New</button>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <button class="btn btn-sm btn-outline-warning" asp-action="Edit" asp-route-id="@item.Id"><i class="fas fa-edit"></i></button> 
+                <button class="btn btn-sm btn-outline-info" asp-action="Details" asp-route-id="@item.Id"><i class="fas fa-search"></i></button> 
+                <button class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id"><i class="fas fa-trash"></i></button>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

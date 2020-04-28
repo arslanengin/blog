@@ -1,0 +1,11 @@
+D:\Repo\blog-core\blog.business\bin\Debug\netcoreapp3.1\blog.business.deps.json
+D:\Repo\blog-core\blog.business\bin\Debug\netcoreapp3.1\blog.business.dll
+D:\Repo\blog-core\blog.business\bin\Debug\netcoreapp3.1\blog.business.pdb
+D:\Repo\blog-core\blog.business\bin\Debug\netcoreapp3.1\blog.data.dll
+D:\Repo\blog-core\blog.business\bin\Debug\netcoreapp3.1\blog.data.pdb
+D:\Repo\blog-core\blog.business\obj\Debug\netcoreapp3.1\blog.business.csprojAssemblyReference.cache
+D:\Repo\blog-core\blog.business\obj\Debug\netcoreapp3.1\blog.business.AssemblyInfoInputs.cache
+D:\Repo\blog-core\blog.business\obj\Debug\netcoreapp3.1\blog.business.AssemblyInfo.cs
+D:\Repo\blog-core\blog.business\obj\Debug\netcoreapp3.1\blog.business.csproj.CopyComplete
+D:\Repo\blog-core\blog.business\obj\Debug\netcoreapp3.1\blog.business.dll
+D:\Repo\blog-core\blog.business\obj\Debug\netcoreapp3.1\blog.business.pdb
